@@ -7,7 +7,7 @@ class movementModel extends Model
   public $type;
   public $description;
   public $amount;
-  public $created_at;
+  public $created_at;                         
   public $updated_at;
 
   /**
