@@ -18,5 +18,7 @@
   <?php require_once INCLUDES.'inc_styles.php'; ?>
 </head>
 
-<body class="<?php echo isset($d->bg) && $d->bg === 'dark' ? 'bg-dark' : 'bg-light' ?>" style="<?php echo 'padding: '.(isset($d->padding) ? $d->padding : '200px 0px'); ?>">
-<!-- ends inc_header.php -->
+<body id="page-top">
+
+<!-- Page Wrapper-->
+<div id="wrapper">
